@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <limits.h>
-//21 nodes
 #define V 21
 int minDistance(int dist[], bool sptSet[]) {
 	int min = INT_MAX, min_index;
