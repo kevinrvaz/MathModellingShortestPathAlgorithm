@@ -17,7 +17,6 @@
 int minDistance(int dist[],
                 bool sptSet[])
 {
-
     // Initialize min value
     int min = INT_MAX, min_index;
 
@@ -34,7 +33,6 @@ int minDistance(int dist[],
 // using parent array
 void printPath(int parent[], int j)
 {
-
     // Base Case : If j is source
     if (parent[j] == - 1)
         return;
@@ -67,7 +65,6 @@ int printSolution(int dist[], int n,
 // using adjacency matrix representation
 void dijkstra(int graph[V][V], int src)
 {
-
     // The output array. dist[i]
     // will hold the shortest
     // distance from src to i
